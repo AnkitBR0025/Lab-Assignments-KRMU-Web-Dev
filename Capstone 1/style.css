@@ -290,18 +290,6 @@ body {
 }
 
 
-/* Laptop (above 1024px)  */
-@media (min-width: 1024px) {
 
-   
-}
-/* Tablet (425px to 768px) */
-@media (min-width: 768px) and (max-width: 1023px){
-
-}
-/* Mobile (below 425px) */
-@media (max-width: 767px){
-
-}
 
 
