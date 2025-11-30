@@ -1,0 +1,307 @@
+body {
+    background:whitesmoke;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background:pink;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: orangered;
+}
+
+.nav-links {
+    display: flex;
+    align-items:center;
+    gap: 60px;
+    
+}
+.link{    
+    font-size: 20px;
+}
+
+
+
+.nav-buttons button {
+    margin-left: 10px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.login {
+    background: #ff4d4d;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.login:hover {
+    background: #fff;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+
+.signup {
+    background: #ff4d4d;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.signup:hover {
+    background: #fff;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+
+/* Hero Section */
+.hero {
+    justify-items: center;
+    display:flex;
+    align-items: center;
+    gap:30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+
+
+}
+.hero-content{
+    flex:1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.img-hero {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-hero img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+.order-btn {
+    padding: 12px 30px;
+    background: #ff4d4d;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.order-btn:hover{
+    transform: scale(1.2);
+}
+
+.location-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.location {
+    width: 200px;
+    height: 30px;
+}
+
+.option {
+    width: 200px;
+    height: 30px;
+}
+
+.search-btn {
+    padding: 12px 30px;
+    background: #ff4d4d;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-btn:hover {
+    background: #fff;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+
+
+/* categories section */
+.categories {
+    padding: 40px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories h2 {
+    font-size: 30px;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.category-card {
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: pink;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.category-card:hover {
+    transform: scale(1.1);
+    background-color: #ff4d4d;
+}
+
+/* Restaurant */
+.restaurants {
+    padding: 40px;
+}
+
+.restaurants h2 {
+    font-size: 30px;
+}
+
+.restaurants-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.restaurant-list {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.restaurant-list:hover {
+    transform: scale(1.1);
+    background-color: beige;
+}
+
+
+.restaurant-list img {
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+/* Offers */
+.offers {
+    padding: 40px;
+}
+
+.offer-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.offer {
+    background:pink;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+/* Feedback section */
+.feedback h2{
+    font-size: 30px;
+}
+.feedback {
+    padding: 30px;
+    justify-items: center;
+}
+
+.feedback-grid {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width:1000px;
+    height:200px;
+}
+
+.customer {
+    flex: 1;
+    background:pink;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+}
+.customer:hover{
+    transform: scale(1.1);
+    font-size:large ;
+}
+ footer{
+    justify-content: center;
+    background-color: #ff4d4d;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.foot p{
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #fff;
+    font-size: large;
+}
+
+
+/* Laptop (above 1024px)  */
+@media (min-width: 1024px) {
+
+   
+}
+/* Tablet (425px to 768px) */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+/* Mobile (below 425px) */
+@media (max-width: 767px){
+
+}
+
+
